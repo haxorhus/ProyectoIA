@@ -14,7 +14,7 @@ Desarrollar una IA capaz de predecir la cantidad de alumnos que van a abandonar 
 
 ## Criterio de abandono
 Mi criterio para asumir que alguien abandonó la materia es:
-- **Ausente en los 3 finales **
+- **Ausente en los 3 finales**
 - **Ausente en el 2do parcial**
 
 Quiero que este criterio sea lo mas simple y general posible por ahora.
