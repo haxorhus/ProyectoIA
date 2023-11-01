@@ -9,8 +9,8 @@ Si cada seccion permite un maximo de 40 alumnos y hay 180 alumnos inscritos, ent
 
 ## Objetivo
 Desarrollar una IA capaz de predecir la cantidad de alumnos que van a abandonar la materia **antes** de que esta materia se abra, para que asi la directiva pueda tomar mejores decisiones sobre cuantas secciones abrir y asi, evitar gastos que no hacen falta.
-## Materia (a decidir)
-**Dinamica**
+## Materia 
+**Calculo 2**
 
 ## Criterio de abandono
 Mi criterio para asumir que alguien abandonó la materia es:
