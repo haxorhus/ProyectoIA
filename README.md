@@ -47,3 +47,19 @@ Voy a elegir unas cuantas materias correlativas de donde voy a sacar los fixture
 #### Para mi criterio de abandono
 - 'Asistencia' verifica si se cumplió el requisito de asistencia
 - '2P', 'Nota final' me permite saber si asistio o no a esos examenes
+
+## Modelos a Usar
+###  Regresion logistica
+Este es un modelo utilizado para problemas de clasificacion. El modelo se usa para estimar la probabilidad de una instancia pertenezca a una clase particular.
+Si la probabilidad es de mas de 50% el modelo devuelve un 1, es decir si.
+Si la probabilidad es de menos de 50% el modelo devuelve un 0, es decir no.
+Esto lo convierte en un clasificador binario.
+### Bosques aleatorios}
+Un **bosque aleatorio** (**RF**) es un ensamble de arboles de decision en el que cada arbol de decision se entrena con un ruido aleatorio específico. Los bosques aleatorios son la forma más popular de ensamble de arbol de decision.
+### Gradient boosting Trees
+El boosting de gradiente es una metodología que se aplica sobre otro algoritmo de aprendizaje automático. De manera informal, el **aumento de gradiente** implica dos tipos de modelos:
+- Un modelo de aprendizaje automático "débil" que suele ser un árbol de decisión.
+- Un modelo de aprendizaje automático "strong" que se compone de varios modelos débiles.
+
+En el aumento de gradiente, en cada paso, se entrena un modelo débil nuevo para predecir el error del modelo fuerte actual (llamado **pseudorespuesta**). Detallaremos "error" más adelante. Por ahora, supongamos que “error” es la diferencia entre la predicción y una etiqueta de regresión. El modelo débil (es decir, el error) se agrega al modelo seguro con un signo negativo para reducir su error.
+
